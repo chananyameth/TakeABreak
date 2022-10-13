@@ -119,7 +119,14 @@
     <ClCompile Include="TakeABreak.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="TakeABreak.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TakeABreak.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
